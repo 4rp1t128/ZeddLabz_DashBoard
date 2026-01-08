@@ -1,0 +1,66 @@
+.dashboard {
+    background: #f6f7fb;
+    padding: 24px;
+    flex: 1;
+
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+/* MAIN GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: px;
+}
+
+/* CARDS */
+.card {
+    background: #ffffff;
+    border: 1px solid #C8CBD9;
+    padding: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+}
+
+/* GRID POSITIONING */
+.revenue {
+    grid-column: 1 / 3;
+}
+
+.orderTime {
+    grid-column: 3 / 4;
+}
+
+.rating {
+    grid-column: 1/ 2;
+}
+
+.mostOrderFood {
+    grid-column: 2/3;
+}
+
+.order {
+    grid-column: 3 / 4;
+}
+
+
+.viewBtn {
+    font-size: 12px;
+    color: #4f6cff;
+    background: #eef1ff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

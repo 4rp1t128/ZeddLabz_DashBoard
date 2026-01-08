@@ -1,0 +1,44 @@
+
+
+.title {
+    font-size: 14px;
+}
+
+.value {
+    font-size: 24px;
+}
+
+.upSubtitle {
+    color: #4caf50;
+}
+
+.downSubtitle {
+    color: #F2383A;
+}
+
+.upArrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #4caf50;
+}
+
+.noArrow {
+    width: 0;
+    height: 0;
+}
+
+.downArrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #F2383A;
+}
+
+.para {
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.5;
+}
